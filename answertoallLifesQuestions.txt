@@ -1,0 +1,6 @@
+
+	output.texcoord.x=0.5*(1+input.position.x-InverseViewportWidth);
+	output.texcoord.y=0.5*(1-input.position.y-InverseViewportHeight);
+// this gets me screen space coordinates i think nvm i found it
+// its uv coordinate * 2.0f to get me from 0 to 1 to 0 to 2 
+then -1 gets me from 0 to 2 to -1 to 1 

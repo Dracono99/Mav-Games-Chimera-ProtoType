@@ -1,0 +1,324 @@
+﻿cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+  XInput.cpp
+  VertexDeclarations.cpp
+  RawInput.cpp
+  PhysicsSphere.cpp
+  PhysicsRay.cpp
+  PhysicsPlane.cpp
+  PhysicsOBB.cpp
+  MultiPlayerMenuElements.cpp
+  MultiplayerGameWaitingState.cpp
+  MultiplayerGamePlayPauseMenu.cpp
+  MultiPlayerGamePlayMenu.cpp
+  MultiplayerGameOverMenu.cpp
+  MultiPlayerCore.cpp
+  MessageTimer.cpp
+  MessageSystem.cpp
+  MeshCollisionOctreePartitioner.cpp
+  MenuFSM.cpp
+  MainOptionsMenu.cpp
+  MainMultiPlayerMenuState.cpp
+  MainMultiPlayerGameState.cpp
+  Generating Code...
+  Compiling...
+  MainMenu.cpp
+  MainGameMenuState.cpp
+  MainGameManager.cpp
+  MainGameCampaignState.cpp
+  MainAudioSettingsMenu.cpp
+  Main.cpp
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::exception_ptr std::exception_ptr::_Current_exception(void)' : function not inlined
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(480) : see declaration of 'std::exception_ptr::_Current_exception'
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::string std::locale::name(void) const' : function not inlined
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocale(438) : see declaration of 'std::locale::name'
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::string std::error_code::message(void) const' : function not inlined
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(262) : see declaration of 'std::error_code::message'
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::string std::_Generic_error_category::message(int) const' : function not inlined
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(589) : see declaration of 'std::_Generic_error_category::message'
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::string std::_Iostream_error_category::message(int) const' : function not inlined
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(610) : see declaration of 'std::_Iostream_error_category::message'
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::string std::_System_error_category::message(int) const' : function not inlined
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(633) : see declaration of 'std::_System_error_category::message'
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::locale std::ios_base::getloc(void) const' : function not inlined
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xiosbase(441) : see declaration of 'std::ios_base::getloc'
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::string std::to_string(long double)' : function not inlined
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(874) : see declaration of 'std::to_string'
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::wstring std::to_wstring(long double)' : function not inlined
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(952) : see declaration of 'std::to_wstring'
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::string std::numpunct<_Elem>::do_grouping(void) const' : function not inlined
+          with
+          [
+              _Elem=char
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(200) : see declaration of 'std::numpunct<_Elem>::do_grouping'
+          with
+          [
+              _Elem=char
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::basic_string<_Elem,_Traits,_Alloc> std::numpunct<_Elem>::do_falsename(void) const' : function not inlined
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Alloc=std::allocator<char>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(205) : see declaration of 'std::numpunct<_Elem>::do_falsename'
+          with
+          [
+              _Elem=char
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::basic_string<_Elem,_Traits,_Alloc> std::numpunct<_Elem>::do_truename(void) const' : function not inlined
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Alloc=std::allocator<char>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(210) : see declaration of 'std::numpunct<_Elem>::do_truename'
+          with
+          [
+              _Elem=char
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::string std::numpunct<_Elem>::do_grouping(void) const' : function not inlined
+          with
+          [
+              _Elem=wchar_t
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(200) : see declaration of 'std::numpunct<_Elem>::do_grouping'
+          with
+          [
+              _Elem=wchar_t
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::basic_string<_Elem,_Traits,_Alloc> std::numpunct<_Elem>::do_falsename(void) const' : function not inlined
+          with
+          [
+              _Elem=wchar_t,
+              _Traits=std::char_traits<wchar_t>,
+              _Alloc=std::allocator<wchar_t>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(205) : see declaration of 'std::numpunct<_Elem>::do_falsename'
+          with
+          [
+              _Elem=wchar_t
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::basic_string<_Elem,_Traits,_Alloc> std::numpunct<_Elem>::do_truename(void) const' : function not inlined
+          with
+          [
+              _Elem=wchar_t,
+              _Traits=std::char_traits<wchar_t>,
+              _Alloc=std::allocator<wchar_t>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(210) : see declaration of 'std::numpunct<_Elem>::do_truename'
+          with
+          [
+              _Elem=wchar_t
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::basic_string<_Elem,_Traits,_Alloc> std::numpunct<_Elem>::falsename(void) const' : function not inlined
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Alloc=std::allocator<char>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(97) : see declaration of 'std::numpunct<_Elem>::falsename'
+          with
+          [
+              _Elem=char
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::basic_string<_Elem,_Traits,_Alloc> std::numpunct<_Elem>::truename(void) const' : function not inlined
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Alloc=std::allocator<char>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(102) : see declaration of 'std::numpunct<_Elem>::truename'
+          with
+          [
+              _Elem=char
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::basic_string<_Elem,_Traits,_Alloc> std::numpunct<_Elem>::falsename(void) const' : function not inlined
+          with
+          [
+              _Elem=wchar_t,
+              _Traits=std::char_traits<wchar_t>,
+              _Alloc=std::allocator<wchar_t>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(97) : see declaration of 'std::numpunct<_Elem>::falsename'
+          with
+          [
+              _Elem=wchar_t
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::basic_string<_Elem,_Traits,_Alloc> std::numpunct<_Elem>::truename(void) const' : function not inlined
+          with
+          [
+              _Elem=wchar_t,
+              _Traits=std::char_traits<wchar_t>,
+              _Alloc=std::allocator<wchar_t>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(102) : see declaration of 'std::numpunct<_Elem>::truename'
+          with
+          [
+              _Elem=wchar_t
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::string std::numpunct<_Elem>::grouping(void) const' : function not inlined
+          with
+          [
+              _Elem=char
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(92) : see declaration of 'std::numpunct<_Elem>::grouping'
+          with
+          [
+              _Elem=char
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::string std::numpunct<_Elem>::grouping(void) const' : function not inlined
+          with
+          [
+              _Elem=wchar_t
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(92) : see declaration of 'std::numpunct<_Elem>::grouping'
+          with
+          [
+              _Elem=wchar_t
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::_String_iterator<_Mystr> std::basic_string<_Elem,_Traits,_Alloc>::insert(std::_String_const_iterator<_Mystr>,_Elem)' : function not inlined
+          with
+          [
+              _Mystr=std::_String_val<std::_Simple_types<char>>,
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Alloc=std::allocator<char>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(1268) : see declaration of 'std::basic_string<_Elem,_Traits,_Alloc>::insert'
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Alloc=std::allocator<char>
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::_String_iterator<_Mystr> std::basic_string<_Elem,_Traits,_Alloc>::end(void) throw()' : function not inlined
+          with
+          [
+              _Mystr=std::_String_val<std::_Simple_types<char>>,
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Alloc=std::allocator<char>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(1583) : see declaration of 'std::basic_string<_Elem,_Traits,_Alloc>::end'
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Alloc=std::allocator<char>
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::_String_iterator<_Mystr> std::basic_string<_Elem,_Traits,_Alloc>::insert(std::_String_const_iterator<_Mystr>,_Elem)' : function not inlined
+          with
+          [
+              _Mystr=std::_String_val<std::_Simple_types<wchar_t>>,
+              _Elem=wchar_t,
+              _Traits=std::char_traits<wchar_t>,
+              _Alloc=std::allocator<wchar_t>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(1268) : see declaration of 'std::basic_string<_Elem,_Traits,_Alloc>::insert'
+          with
+          [
+              _Elem=wchar_t,
+              _Traits=std::char_traits<wchar_t>,
+              _Alloc=std::allocator<wchar_t>
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::_String_iterator<_Mystr> std::basic_string<_Elem,_Traits,_Alloc>::end(void) throw()' : function not inlined
+          with
+          [
+              _Mystr=std::_String_val<std::_Simple_types<wchar_t>>,
+              _Elem=wchar_t,
+              _Traits=std::char_traits<wchar_t>,
+              _Alloc=std::allocator<wchar_t>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(1583) : see declaration of 'std::basic_string<_Elem,_Traits,_Alloc>::end'
+          with
+          [
+              _Elem=wchar_t,
+              _Traits=std::char_traits<wchar_t>,
+              _Alloc=std::allocator<wchar_t>
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::_String_iterator<_Mystr> std::basic_string<_Elem,_Traits,_Alloc>::begin(void) throw()' : function not inlined
+          with
+          [
+              _Mystr=std::_String_val<std::_Simple_types<char>>,
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Alloc=std::allocator<char>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(1573) : see declaration of 'std::basic_string<_Elem,_Traits,_Alloc>::begin'
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Alloc=std::allocator<char>
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::_String_iterator<_Mystr> std::basic_string<_Elem,_Traits,_Alloc>::begin(void) throw()' : function not inlined
+          with
+          [
+              _Mystr=std::_String_val<std::_Simple_types<wchar_t>>,
+              _Elem=wchar_t,
+              _Traits=std::char_traits<wchar_t>,
+              _Alloc=std::allocator<wchar_t>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(1573) : see declaration of 'std::basic_string<_Elem,_Traits,_Alloc>::begin'
+          with
+          [
+              _Elem=wchar_t,
+              _Traits=std::char_traits<wchar_t>,
+              _Alloc=std::allocator<wchar_t>
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::_String_iterator<_Mystr> std::_String_iterator<_Mystr>::operator +(__w64 int) const' : function not inlined
+          with
+          [
+              _Mystr=std::_String_val<std::_Simple_types<char>>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(375) : see declaration of 'std::_String_iterator<_Mystr>::operator +'
+          with
+          [
+              _Mystr=std::_String_val<std::_Simple_types<char>>
+          ]
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(155): warning C4710: 'std::_String_iterator<_Mystr> std::_String_iterator<_Mystr>::operator +(__w64 int) const' : function not inlined
+          with
+          [
+              _Mystr=std::_String_val<std::_Simple_types<wchar_t>>
+          ]
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(375) : see declaration of 'std::_String_iterator<_Mystr>::operator +'
+          with
+          [
+              _Mystr=std::_String_val<std::_Simple_types<wchar_t>>
+          ]
+  InputCore.cpp
+  HydraOctrees.cpp
+  HitEffectGamePlayObject.cpp
+  GraphicsCore.cpp
+  GfxStats.cpp
+  GamePlayCore.cpp
+  GamePauseMenu.cpp
+  GameMenu.cpp
+  FreeForm3DCamera.cpp
+  DragonPhysicsEngine.cpp
+  DragonForceRegistry.cpp
+  DragonForceGenerator.cpp
+  DragonForceEngine.cpp
+  DragonContactResolver.cpp
+  Generating Code...
+  Compiling...
+  DragonContactRegistry.cpp
+  DragonContactGenerator.cpp
+  DragonContact.cpp
+  DragonCollisionEngine.cpp
+  d3dUtility.cpp
+  d3dApp.cpp
+  ChimeraGameEngine.cpp
+  BasePhysicsEntity.cpp
+  BaseMpOnlineAIObject.cpp
+  BaseGamePlayObject.cpp
+  BaseGameEntity.cpp
+  AudioCore.cpp
+  AdvancedGraphicsObject.cpp
+  Generating Code...
+  ChimeraGameEngine.vcxproj -> C:\Users\Mason\Documents\Visual Studio 2012\Projects\ChimeraGameEngine\Debug\ChimeraGameEngine.exe

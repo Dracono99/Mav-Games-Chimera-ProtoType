@@ -1,0 +1,66 @@
+#include "AdvancedGraphicsObject.h"
+
+AdvancedGraphicsObject::AdvancedGraphicsObject(BaseGameEntity* Owner) : BaseGraphicsEntity(Owner)
+{
+	m_AdvancedGfxObj=true;
+	m_Damaged=false;
+	m_UnDamagedDiffuseTex=NULL;
+	m_UnDamagedNormTex=NULL;
+	m_UnDamagedSpecTex=NULL;
+	m_DamagedDiffuseTex=NULL;
+	m_DamagedNormalTex=NULL;
+	m_DamagedSpecTex=NULL;
+	m_RenderedDiffuseTex=NULL;
+	m_RenderedNormTex=NULL;
+	m_RenderedSpecTex=NULL;
+	m_VertexDispMagTex=NULL;
+	m_VertexNormQuatTex=NULL;
+	m_RenderedDiffuseSurface=NULL;
+	m_RenderedNormSurface=NULL;
+	m_RenderedSpecSurface=NULL;
+	m_VertexDispMagSurface=NULL;
+	m_VertexNormQuatSurface=NULL;
+}
+AdvancedGraphicsObject::~AdvancedGraphicsObject()
+{
+	if(m_RenderedDiffuseTex!=NULL)
+	{
+		m_RenderedDiffuseTex->Release();
+	}
+	if(m_RenderedNormTex!=NULL)
+	{
+		m_RenderedNormTex->Release();
+	}
+	if(m_RenderedSpecTex!=NULL)
+	{
+		m_RenderedSpecTex->Release();
+	}
+	if(m_VertexDispMagTex!=NULL)
+	{
+		m_VertexDispMagTex->Release();
+	}
+	if(m_VertexNormQuatTex!=NULL)
+	{
+		m_VertexNormQuatTex->Release();
+	}
+	if(m_RenderedDiffuseSurface!=NULL)
+	{
+		m_RenderedDiffuseSurface->Release();
+	}
+	if(m_RenderedNormSurface!=NULL)
+	{
+		m_RenderedNormSurface->Release();
+	}
+	if(m_RenderedSpecSurface!=NULL)
+	{
+		m_RenderedSpecSurface->Release();
+	}
+	if(m_VertexDispMagSurface!=NULL)
+	{
+		m_VertexDispMagSurface->Release();
+	}
+	if(m_VertexNormQuatSurface!=NULL)
+	{
+		m_VertexNormQuatSurface->Release();
+	}
+}

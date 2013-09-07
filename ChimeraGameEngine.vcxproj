@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0A4C9ADC-1470-454A-8511-3E07235100F8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ChimeraGameEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Windows Kits\8.0\Lib\win8\um\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Windows Kits\8.0\Lib\win8\um\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AdvancedGraphicsObject.cpp" />
+    <ClCompile Include="AudioCore.cpp" />
+    <ClCompile Include="BaseGameEntity.cpp" />
+    <ClCompile Include="BaseGamePlayObject.cpp" />
+    <ClCompile Include="BaseMpOnlineAIObject.cpp" />
+    <ClCompile Include="BasePhysicsEntity.cpp" />
+    <ClCompile Include="ChimeraGameEngine.cpp" />
+    <ClCompile Include="d3dApp.cpp" />
+    <ClCompile Include="d3dUtility.cpp" />
+    <ClCompile Include="DragonCollisionEngine.cpp" />
+    <ClCompile Include="DragonContact.cpp" />
+    <ClCompile Include="DragonContactGenerator.cpp" />
+    <ClCompile Include="DragonContactRegistry.cpp" />
+    <ClCompile Include="DragonContactResolver.cpp" />
+    <ClCompile Include="DragonForceEngine.cpp" />
+    <ClCompile Include="DragonForceGenerator.cpp" />
+    <ClCompile Include="DragonForceRegistry.cpp" />
+    <ClCompile Include="DragonPhysicsEngine.cpp" />
+    <ClCompile Include="FreeForm3DCamera.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
+    <ClCompile Include="GamePauseMenu.cpp" />
+    <ClCompile Include="GamePlayCore.cpp" />
+    <ClCompile Include="GfxStats.cpp" />
+    <ClCompile Include="GraphicsCore.cpp" />
+    <ClCompile Include="HitEffectGamePlayObject.cpp" />
+    <ClCompile Include="HydraOctrees.cpp" />
+    <ClCompile Include="InputCore.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainAudioSettingsMenu.cpp" />
+    <ClCompile Include="MainGameCampaignState.cpp" />
+    <ClCompile Include="MainGameManager.cpp" />
+    <ClCompile Include="MainGameMenuState.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="MainMultiPlayerGameState.cpp" />
+    <ClCompile Include="MainMultiPlayerMenuState.cpp" />
+    <ClCompile Include="MainOptionsMenu.cpp" />
+    <ClCompile Include="MenuFSM.cpp" />
+    <ClCompile Include="MeshCollisionOctreePartitioner.cpp" />
+    <ClCompile Include="MessageSystem.cpp" />
+    <ClCompile Include="MessageTimer.cpp" />
+    <ClCompile Include="MultiPlayerCore.cpp" />
+    <ClCompile Include="MultiplayerGameOverMenu.cpp" />
+    <ClCompile Include="MultiPlayerGamePlayMenu.cpp" />
+    <ClCompile Include="MultiplayerGamePlayPauseMenu.cpp" />
+    <ClCompile Include="MultiplayerGameWaitingState.cpp" />
+    <ClCompile Include="MultiPlayerMenuElements.cpp" />
+    <ClCompile Include="PhysicsOBB.cpp" />
+    <ClCompile Include="PhysicsPlane.cpp" />
+    <ClCompile Include="PhysicsRay.cpp" />
+    <ClCompile Include="PhysicsSphere.cpp" />
+    <ClCompile Include="RawInput.cpp" />
+    <ClCompile Include="VertexDeclarations.cpp" />
+    <ClCompile Include="XInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdvancedGraphicsObject.h" />
+    <ClInclude Include="AudioCore.h" />
+    <ClInclude Include="AudioCoreEnums.h" />
+    <ClInclude Include="BaseGameEntity.h" />
+    <ClInclude Include="BaseGameplayObject.h" />
+    <ClInclude Include="BaseGraphicsEntity.h" />
+    <ClInclude Include="BaseGuiElement.h" />
+    <ClInclude Include="BaseMpOnlineAIObject.h" />
+    <ClInclude Include="BasePhysicsEntity.h" />
+    <ClInclude Include="ChimeraGameEngine.h" />
+    <ClInclude Include="d3dApp.h" />
+    <ClInclude Include="d3dUtil.h" />
+    <ClInclude Include="d3dUtility.h" />
+    <ClInclude Include="DragonCollisionEngine.h" />
+    <ClInclude Include="DragonContact.h" />
+    <ClInclude Include="DragonContactGenerator.h" />
+    <ClInclude Include="DragonContactRegistry.h" />
+    <ClInclude Include="DragonContactResolver.h" />
+    <ClInclude Include="DragonEnums.h" />
+    <ClInclude Include="DragonForceEngine.h" />
+    <ClInclude Include="DragonForceGenerator.h" />
+    <ClInclude Include="DragonForceRegistry.h" />
+    <ClInclude Include="DragonMeshCollisionObject.h" />
+    <ClInclude Include="DragonPhysicsEngine.h" />
+    <ClInclude Include="DragonSector.h" />
+    <ClInclude Include="DragonXMath.h" />
+    <ClInclude Include="FreeForm3DCamera.h" />
+    <ClInclude Include="FSMnStates.h" />
+    <ClInclude Include="GameMenu.h" />
+    <ClInclude Include="GamePauseMenu.h" />
+    <ClInclude Include="GamePlayCore.h" />
+    <ClInclude Include="GamePlayObjectEnums.h" />
+    <ClInclude Include="GfxStats.h" />
+    <ClInclude Include="GraphicsCore.h" />
+    <ClInclude Include="GuiElements.h" />
+    <ClInclude Include="GuiSet.h" />
+    <ClInclude Include="HitEffectGamePlayObject.h" />
+    <ClInclude Include="HydraOctrees.h" />
+    <ClInclude Include="InputCore.h" />
+    <ClInclude Include="MainAudioSettingsMenu.h" />
+    <ClInclude Include="MainGameCampaignState.h" />
+    <ClInclude Include="MainGameManager.h" />
+    <ClInclude Include="MainGameMenuState.h" />
+    <ClInclude Include="MainGameStateIDs.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="MainMultiPlayerGameState.h" />
+    <ClInclude Include="MainMultiPlayerMenuState.h" />
+    <ClInclude Include="MainOptionsMenu.h" />
+    <ClInclude Include="MenuEnums.h" />
+    <ClInclude Include="MenuFSM.h" />
+    <ClInclude Include="MenuStateIds.h" />
+    <ClInclude Include="MeshCollisionOctreePartitioner.h" />
+    <ClInclude Include="MessageSystem.h" />
+    <ClInclude Include="MessageTimer.h" />
+    <ClInclude Include="MpPacketDefs.h" />
+    <ClInclude Include="MultiPlayerCore.h" />
+    <ClInclude Include="MultiplayerGameOverMenu.h" />
+    <ClInclude Include="MultiPlayerGamePlayMenu.h" />
+    <ClInclude Include="MultiPlayerGamePlayObject.h" />
+    <ClInclude Include="MultiplayerGamePlayPauseMenu.h" />
+    <ClInclude Include="MultiplayerGameWaitingState.h" />
+    <ClInclude Include="MultiPlayerMenuElements.h" />
+    <ClInclude Include="PacketStructs.h" />
+    <ClInclude Include="PhysicsOBB.h" />
+    <ClInclude Include="PhysicsPlane.h" />
+    <ClInclude Include="PhysicsRay.h" />
+    <ClInclude Include="PhysicsSphere.h" />
+    <ClInclude Include="PhysicsTriangle.h" />
+    <ClInclude Include="RawInput.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="resource2.h" />
+    <ClInclude Include="resource3.h" />
+    <ClInclude Include="resource4.h" />
+    <ClInclude Include="VertexDeclarations.h" />
+    <ClInclude Include="XInput.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ChimeraGameEngine.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

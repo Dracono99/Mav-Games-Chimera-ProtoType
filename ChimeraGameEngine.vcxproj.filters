@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\D3DappnUtils">
+      <UniqueIdentifier>{20d20209-4e0b-4a62-a6d7-9fa980551e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine">
+      <UniqueIdentifier>{5f0765c0-d01d-4fd3-81b2-2185b9db3586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\DragonPhysicsEngine">
+      <UniqueIdentifier>{83a10aa1-7588-4bc0-94dc-42443729783f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\InputCore">
+      <UniqueIdentifier>{589cc34e-03f7-48ff-9d2d-4b80ece97935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FSMtemplates">
+      <UniqueIdentifier>{10d8c4ae-fab6-47e1-94f6-d946abb0d0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GfxStats">
+      <UniqueIdentifier>{c8ad13eb-4145-4508-b4d3-2055b6e0cd19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MainGameAppnStates">
+      <UniqueIdentifier>{ab107562-8280-438c-8ae6-d431b03fb36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\DragonPhysicsEngine\PhysicsUtils">
+      <UniqueIdentifier>{b8b4d1e4-cab6-4056-9afd-7cb14708c848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine">
+      <UniqueIdentifier>{5c9b743a-4abb-4eba-9ac9-12cb8e623b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonForceEngine">
+      <UniqueIdentifier>{ce6a0427-b5c3-425f-b615-8351ae7ad505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects">
+      <UniqueIdentifier>{a355ee26-1120-4697-9b97-69b1039c82ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\DragonPhysicsEngine\SpaceOptimizations">
+      <UniqueIdentifier>{85c0e61d-ec18-46e0-ab6c-c0e336595f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\BaseGameObjects">
+      <UniqueIdentifier>{3d8a1a83-f13b-48ec-a313-68c555074bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\D3DappnUtils">
+      <UniqueIdentifier>{3162067d-a618-4695-a4fe-b484f8365aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainGameAppnStates">
+      <UniqueIdentifier>{6ebcbb67-1145-4975-b614-3a8e5a67dfda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine">
+      <UniqueIdentifier>{586a4868-d54c-45a5-8a0c-c29b9f23fcb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\DragonPhysicsEngine">
+      <UniqueIdentifier>{91828b26-dd0d-4816-8dad-28a45b2b16bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\InputCore">
+      <UniqueIdentifier>{e094eaba-8302-4d7e-8dfe-7df1956ce7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\BaseGameObjects">
+      <UniqueIdentifier>{24df8b02-5c59-43f8-861a-490da1334bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine">
+      <UniqueIdentifier>{dd1d5320-acea-42c3-9d09-92dea9f846db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonForceEngine">
+      <UniqueIdentifier>{a8221844-bcb7-4f3b-aa1f-388be995f0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects">
+      <UniqueIdentifier>{053baec3-6b76-42cd-92c8-cce679e2daaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\DragonPhysicsEngine\SpaceOptimizations">
+      <UniqueIdentifier>{f7ad73e7-4e37-4228-b627-64d353d9f84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GfxStats">
+      <UniqueIdentifier>{156400b7-b327-45c5-8eaf-08aa0a527f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\GUI">
+      <UniqueIdentifier>{08ae25f5-8789-4ba8-b0da-fea2e8c6c998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\GUI">
+      <UniqueIdentifier>{02740408-871e-4892-a9ba-4da361b7f458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\GUI\MainGuiElements">
+      <UniqueIdentifier>{6cf96cca-1de6-4c77-a865-c2da44cee642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\GUI\GuiMenuStates">
+      <UniqueIdentifier>{e819b342-b8f4-4955-81d0-dd9cecb144b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\GUI\MainGuiElements">
+      <UniqueIdentifier>{d8b90bde-f523-4cd8-9940-62ea1af6ed5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\GUI\GuiMenuStates">
+      <UniqueIdentifier>{64915445-4d68-4c97-ab1d-0eb6df210384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\MessageSystem">
+      <UniqueIdentifier>{61ba55f8-fd3d-48c4-913e-62b1037614c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\MessageSystem">
+      <UniqueIdentifier>{d33bdbf7-95ff-4521-b66c-78ea3520af5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\AudioCore">
+      <UniqueIdentifier>{f9980b0d-9444-42c6-b261-c47fa67b97fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\AudioCore">
+      <UniqueIdentifier>{d5dea79b-7385-435c-a1b8-56319bb48c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\GraphicsCore">
+      <UniqueIdentifier>{4fd113a0-6f6d-4d2b-a152-ecdbdfb52476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\GraphicsCore">
+      <UniqueIdentifier>{48576f06-21ff-4530-9560-e6b544437e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\GamePlay">
+      <UniqueIdentifier>{5ea4afc8-923a-43bd-8f42-61f8f8e27526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\GamePlay\GamePlayCore">
+      <UniqueIdentifier>{bb50dd33-8a7a-4ac3-8677-e26fe176062a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\GamePlay\GamePlayObjects">
+      <UniqueIdentifier>{d490b9a0-bd9c-45c4-b533-83ae4dbbaf1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\GamePlay">
+      <UniqueIdentifier>{93937897-de4e-493a-b302-5d9eeb44f0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\GamePlay\GamePlayCore">
+      <UniqueIdentifier>{07d7f291-aedc-4db1-b83a-0193513ec91c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\GamePlay\GamePlayObjects">
+      <UniqueIdentifier>{df21022d-6120-458f-8fd1-e674bb15de92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\MultiPlayerCore">
+      <UniqueIdentifier>{f928870e-b523-4aaf-a7cf-a4ce1e9657fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\MultiPlayerCore">
+      <UniqueIdentifier>{d168104b-71a9-426b-8f02-40a838b91541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\GUI\GuiMenuStates\CampaignMenus">
+      <UniqueIdentifier>{d0350e1d-8b7d-40ce-9593-b985781d42d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\GUI\GuiMenuStates\MainGameMenus">
+      <UniqueIdentifier>{c81d3fd1-b823-42d1-9352-bf9a023d830b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus">
+      <UniqueIdentifier>{4a79e1c1-ce39-4757-9793-96207692c547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\GUI\GuiMenuStates\CampaignMenus">
+      <UniqueIdentifier>{e9f48dff-0495-4e5e-b9e3-6a1d84e44ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\GUI\GuiMenuStates\MainGameMenus">
+      <UniqueIdentifier>{33422e08-379e-4e3c-a427-6e1b9d0bd62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus">
+      <UniqueIdentifier>{f6038f48-386f-43e5-b108-1e879a87a85c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3dApp.cpp">
+      <Filter>Source Files\D3DappnUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtility.cpp">
+      <Filter>Source Files\D3DappnUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\MainGameAppnStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGameManager.cpp">
+      <Filter>Source Files\MainGameAppnStates</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonPhysicsEngine.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonCollisionEngine.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonContact.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonContactGenerator.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonContactRegistry.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonContactResolver.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonForceEngine.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonForceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonForceGenerator.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonForceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonForceRegistry.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonForceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsOBB.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsPlane.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsRay.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSphere.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="HydraOctrees.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\SpaceOptimizations</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshCollisionOctreePartitioner.cpp">
+      <Filter>Source Files\ChimeraGameEngine\DragonPhysicsEngine\SpaceOptimizations</Filter>
+    </ClCompile>
+    <ClCompile Include="XInput.cpp">
+      <Filter>Source Files\ChimeraGameEngine\InputCore</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGameEntity.cpp">
+      <Filter>Source Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePhysicsEntity.cpp">
+      <Filter>Source Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ChimeraGameEngine.cpp">
+      <Filter>Source Files\ChimeraGameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxStats.cpp">
+      <Filter>Source Files\GfxStats</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuFSM.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GUI\MainGuiElements</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageTimer.cpp">
+      <Filter>Source Files\ChimeraGameEngine\MessageSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageSystem.cpp">
+      <Filter>Source Files\ChimeraGameEngine\MessageSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="InputCore.cpp">
+      <Filter>Source Files\ChimeraGameEngine\InputCore</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGameMenuState.cpp">
+      <Filter>Source Files\MainGameAppnStates</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioCore.cpp">
+      <Filter>Source Files\ChimeraGameEngine\AudioCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsCore.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GraphicsCore</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexDeclarations.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GraphicsCore</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeForm3DCamera.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GraphicsCore</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGameCampaignState.cpp">
+      <Filter>Source Files\MainGameAppnStates</Filter>
+    </ClCompile>
+    <ClCompile Include="HitEffectGamePlayObject.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GamePlay\GamePlayObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayCore.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GamePlay\GamePlayCore</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGamePlayObject.cpp">
+      <Filter>Source Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlayerCore.cpp">
+      <Filter>Source Files\ChimeraGameEngine\MultiPlayerCore</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMpOnlineAIObject.cpp">
+      <Filter>Source Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMultiPlayerGameState.cpp">
+      <Filter>Source Files\MainGameAppnStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlayerMenuElements.cpp">
+      <Filter>Source Files\ChimeraGameEngine\MultiPlayerCore</Filter>
+    </ClCompile>
+    <ClCompile Include="RawInput.cpp">
+      <Filter>Source Files\ChimeraGameEngine\InputCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedGraphicsObject.cpp">
+      <Filter>Source Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GUI\GuiMenuStates\CampaignMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePauseMenu.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GUI\GuiMenuStates\CampaignMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="MainAudioSettingsMenu.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GUI\GuiMenuStates\MainGameMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GUI\GuiMenuStates\MainGameMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="MainOptionsMenu.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GUI\GuiMenuStates\MainGameMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMultiPlayerMenuState.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerGamePlayPauseMenu.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlayerGamePlayMenu.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerGameWaitingState.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerGameOverMenu.cpp">
+      <Filter>Source Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dApp.h">
+      <Filter>Header Files\D3DappnUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtil.h">
+      <Filter>Header Files\D3DappnUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtility.h">
+      <Filter>Header Files\D3DappnUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ChimeraGameEngine.h">
+      <Filter>Header Files\ChimeraGameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="XInput.h">
+      <Filter>Header Files\ChimeraGameEngine\InputCore</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMnStates.h">
+      <Filter>Header Files\FSMtemplates</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxStats.h">
+      <Filter>Header Files\GfxStats</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGameManager.h">
+      <Filter>Header Files\MainGameAppnStates</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonPhysicsEngine.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonEnums.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\PhysicsUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonXMath.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\PhysicsUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonCollisionEngine.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonContact.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonContactGenerator.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonContactRegistry.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonContactResolver.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonForceEngine.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonForceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonForceGenerator.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonForceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonForceRegistry.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonForceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonMeshCollisionObject.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonSector.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsOBB.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsPlane.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsRay.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSphere.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsTriangle.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\DragonCollisionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="HydraOctrees.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\SpaceOptimizations</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshCollisionOctreePartitioner.h">
+      <Filter>Header Files\ChimeraGameEngine\DragonPhysicsEngine\SpaceOptimizations</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGameEntity.h">
+      <Filter>Header Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePhysicsEntity.h">
+      <Filter>Header Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGraphicsEntity.h">
+      <Filter>Header Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGuiElement.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\MainGuiElements</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiElements.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\MainGuiElements</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiSet.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\MainGuiElements</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuFSM.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\MainGuiElements</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuEnums.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\MainGuiElements</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageSystem.h">
+      <Filter>Header Files\ChimeraGameEngine\MessageSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTimer.h">
+      <Filter>Header Files\ChimeraGameEngine\MessageSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCore.h">
+      <Filter>Header Files\ChimeraGameEngine\InputCore</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGameMenuState.h">
+      <Filter>Header Files\MainGameAppnStates</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioCore.h">
+      <Filter>Header Files\ChimeraGameEngine\AudioCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioCoreEnums.h">
+      <Filter>Header Files\ChimeraGameEngine\AudioCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCore.h">
+      <Filter>Header Files\ChimeraGameEngine\GraphicsCore</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexDeclarations.h">
+      <Filter>Header Files\ChimeraGameEngine\GraphicsCore</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeForm3DCamera.h">
+      <Filter>Header Files\ChimeraGameEngine\GraphicsCore</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGameplayObject.h">
+      <Filter>Header Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="HitEffectGamePlayObject.h">
+      <Filter>Header Files\ChimeraGameEngine\GamePlay\GamePlayObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayCore.h">
+      <Filter>Header Files\ChimeraGameEngine\GamePlay\GamePlayCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayObjectEnums.h">
+      <Filter>Header Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGameCampaignState.h">
+      <Filter>Header Files\MainGameAppnStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGameStateIDs.h">
+      <Filter>Header Files\MainGameAppnStates</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource3.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource4.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuStateIds.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\GuiMenuStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlayerCore.h">
+      <Filter>Header Files\ChimeraGameEngine\MultiPlayerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlayerGamePlayObject.h">
+      <Filter>Header Files\ChimeraGameEngine\GamePlay\GamePlayObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MpPacketDefs.h">
+      <Filter>Header Files\ChimeraGameEngine\MultiPlayerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMpOnlineAIObject.h">
+      <Filter>Header Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMultiPlayerGameState.h">
+      <Filter>Header Files\MainGameAppnStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketStructs.h">
+      <Filter>Header Files\ChimeraGameEngine\MultiPlayerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlayerMenuElements.h">
+      <Filter>Header Files\ChimeraGameEngine\MultiPlayerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="RawInput.h">
+      <Filter>Header Files\ChimeraGameEngine\InputCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedGraphicsObject.h">
+      <Filter>Header Files\ChimeraGameEngine\BaseGameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\GuiMenuStates\CampaignMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePauseMenu.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\GuiMenuStates\CampaignMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="MainAudioSettingsMenu.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\GuiMenuStates\MainGameMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\GuiMenuStates\MainGameMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMultiPlayerMenuState.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="MainOptionsMenu.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\GuiMenuStates\MainGameMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerGameOverMenu.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlayerGamePlayMenu.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerGamePlayPauseMenu.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerGameWaitingState.h">
+      <Filter>Header Files\ChimeraGameEngine\GUI\GuiMenuStates\MultiplayerMenus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ChimeraGameEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
